@@ -4,69 +4,40 @@ import React from 'react'
 const Home = () => {
   return (
     <div className='people-list'>
-      <h1>Select the culture you most closely identify with:</h1>
-      <ul>
-        <li key='samoan'>Samoan</li>
-        <li key='fijian'>Fijian</li>
-        <li key='tongan'>Tongan</li>
-      </ul>
+
+      <h5 className='text'><strong>Help Me Get Through </strong> is a do it yourself one
+       stop shop that helps you source what you need for your event.  From
+       birthdays, weddings to funerals, this online tool connects you with a
+       variety of established as well as community ad-hoc suppliers around
+       Auckland that can provide you options that suit your needs, budget and
+       convenience.</h5>
+      <br />
+      
+      <h5 className='text'>Select the culture you most closely identify with:</h5>
+
+      <div className='gallery'>
+        <a target="_blank" href="/samoa">
+          <img src="/images/samoa.jpeg" alt="Samoa" width="600" height="400"></img>
+        </a>
+        <div className="desc"><a href="/samoa">Samoa</a></div>
+      </div>
+
+      <div className='gallery'>
+        <a target="_blank" href="/fiji">
+          <img src="/images/fiji.jpeg" alt="Fiji" width="600" height="400"></img>
+        </a>
+        <div className="desc"><a href="/fiji">Fiji</a></div>
+      </div>
+
+      <div className='gallery'>
+        <a target="_blank" href="/tonga">
+          <img src="/images/tonga.jpeg" alt="Tonga" width="600" height="400"></img>
+        </a>
+        <div className="desc"><a href="/tonga">Tonga</a></div>
+      </div>
+
     </div>
   )
 }
 
 export default Home
-
-
-<style>
-div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-}
-
-div.gallery:hover {
-    border: 1px solid #777;
-}
-
-div.gallery img {
-    width: 100%;
-    height: auto;
-}
-
-div.desc {
-    padding: 15px;
-    text-align: center;
-}
-</style>
-
-
-
-<div class="gallery">
-  <a target="_blank" href="fjords.jpg">
-    <img src="fjords.jpg" alt="Fjords" width="300" height="200">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="forest.jpg">
-    <img src="forest.jpg" alt="Forest" width="300" height="200">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="lights.jpg">
-    <img src="lights.jpg" alt="Northern Lights" width="300" height="200">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="mountains.jpg">
-    <img src="mountains.jpg" alt="Mountains" width="300" height="200">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
- 

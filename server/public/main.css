@@ -1,0 +1,55 @@
+div.app {
+  margin-left: 180px;
+  margin-right: 180px;
+}
+
+h1.header {
+padding-top: 80px;
+padding-bottom: 80px;
+text-align: center;
+font-size: 4em;
+font-family: 'Playfair Display', serif;
+background-color: rgba(191, 19, 19, 0.8);
+color: white
+}
+
+h5.text {
+  font-size: 1.5em;
+  font-family: 'Playfair Display', serif;
+  color: rgb(191, 19, 19)
+}
+
+h5.footer {
+    padding: 30px;
+    font-size: 1.5em;
+    font-family: 'Playfair Display', serif;
+    color: rgb(191, 19, 19)
+  }
+
+div.gallery {
+    margin: 20px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 270px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 20px;
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Playfair Display', serif;
+    color: rgb(191, 19, 19)
+}
+
+a {
+    color: rgb(191, 19, 19);
+}

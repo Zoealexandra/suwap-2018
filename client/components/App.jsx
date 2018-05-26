@@ -3,20 +3,20 @@ import React from 'react'
 import {HashRouter as Router, Route} from 'react-router-dom'
 
 import Home from './Home'
-// import Header from './Header'
-// import Footer from './Footer'
+import Header from './Header'
+import Footer from './Footer'
 import Samoan from './Samoan'
 
 const App = () => {
   return (
     <Router>
       <div className='app'>
-        {/* <Switch> */}
-        {/* <Route path='/' component={Header} />
-        <Route path='/' component={Footer} /> */}
-        <Route path='/' component={Home} />
-        <Route path='/samoan' component={Samoan} />
-        {/* </Switch> */}
+        <Route path='/' component={Header} />
+        <div>
+          <Route path='/' component={Home} />
+          <Route path='/samoan' component={Samoan} />
+        </div>
+        <Footer />
       </div>
     </Router>
   )
